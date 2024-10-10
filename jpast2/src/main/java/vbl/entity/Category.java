@@ -5,7 +5,7 @@ import java.util.List;
 
 import jakarta.persistence.*;
 @Entity
-@Table(name="Category")
+@Table(name="categories")
 @NamedQuery(name="Category.findAll", query="SELECT c FROM Category c")
 public class Category implements Serializable {
 	private static final long serialVersionUID = 1L;
